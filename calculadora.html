@@ -1,0 +1,35 @@
+﻿<html>
+  <head>
+  </head>
+  <body>
+    <header><h1>Vamos calcular?</h1></header>
+<link rel="stylesheet" href="style.css">
+    <main>
+      <div id="calculadora">
+        <div class="calc"> 
+        <input type="text" id="display">
+         <div class="numeros-calc">
+           <button onClick="inserir(1);">1</button>
+           <button onClick="inserir(2);">2</button>
+           <button onClick="inserir(3);">3</button>
+           <button class="operation" onClick="inserir('+');">+</button>
+           <button onClick="inserir(4);">4</button>
+           <button onClick="inserir(5);">5</button>
+           <button onClick="inserir(6);" value="6">6</button>
+           <button class="operation" onClick="inserir('-');">-</button>
+           <button onClick="inserir(7);">7</button>
+           <button onClick="inserir(8);">8</button>
+           <button onClick="inserir(9);">9</button>
+           <button class="operation" onClick="inserir('*');">*</button>
+           <button onClick="inserir(0);">0</button>
+           <button onClick="limpaCalc();">C</button>
+           <button class="igual" onClick="calcular();">=</button>
+           <button id="btnDiv" class="operation" onClick="inserir('/');">/</button>
+         </div>
+        </div>
+      </div>
+    </main>
+    <footer>Feito por Dayara Rossi - Abril de 2022</footer>
+<script src="script.js"></script>
+  </body>
+</html>
